@@ -5,7 +5,12 @@
  */
 
 body {
+    background-color: dimgray;
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+p {
+    color: rgb(27, 27, 27);
 }
 
 .slide-image {
@@ -28,6 +33,11 @@ body {
 
 .caption h4 {
     white-space: nowrap;
+    color: #fff;
+}
+
+.caption a {
+    color: rgb(223, 140, 158);
 }
 
 .thumbnail img {
@@ -37,16 +47,31 @@ body {
 .ratings {
     padding-right: 10px;
     padding-left: 10px;
-    color: #d17581;
+    color: rgb(255, 51, 119);
 }
 
 .thumbnail {
     padding: 0;
+    background-color: rgb(22, 22, 22);
+    border-color: rgb(22, 22, 22);
 }
 
 .thumbnail .caption-full {
     padding: 9px;
     color: #333;
+}
+
+.caption p {
+    color: whitesmoke;
+}
+
+a {
+    color:  rgb(128, 0, 64)
+}
+
+boton {
+    background-color: #fa1258;
+    border-color: #fa1258;
 }
 
 footer {
@@ -67,7 +92,7 @@ blockquote{
     margin-top: -50px;
     padding-top: -100px;
     border-radius: 17px;
-    background-color: #4ADFCC;
+    background-color: rgb(160, 7, 58);
     margin-top: 25px;
     color:white;
     width: 325px;
@@ -167,3 +192,6 @@ blockquote{
 	color: #25c4c1;
 }
 
+.col-sm-4, .col-lg-4, .col-md-4 {
+    float: right;
+}
